@@ -17,7 +17,7 @@ dark-theme: true
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://docs.google.com/document/d/11vPdvaXyzIzbpEbSD1whu0AKL7khX944En6O5KCcAmg/edit?usp=sharing
 
 url: https://kazarin.tech/
 # your url: https://USERNAME.github.io
@@ -33,12 +33,12 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#facebook: myfacebook
+#twitter: mytwitter
+#instagram: myinstagram
+linkedin: https://www.linkedin.com/in/vkazarin/
+github: https://github.com/vladimir-kazarin
+#email: myemail@gmail.com
 
 authors:
   johndoe:
