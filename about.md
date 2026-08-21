@@ -5,7 +5,16 @@ layout: page
 
 Hey, I'm Vladimir. 👋
 
-![Vladimir](/assets/images/vladimir-scooter.jpg)
+<div class="about-photo">
+    <img src="/assets/images/vladimir-scooter.jpg" alt="Vladimir" />
+    <div class="photo-note">
+        <svg class="note-arrow" width="90" height="75" viewBox="0 0 120 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M105 80C90 30 50 10 15 15" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 8"/>
+            <path d="M28 4L15 15L29 22" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>me scootering in Hawaii, March 2026</span>
+    </div>
+</div>
 
 I'm a software engineer who likes building small things for the fun of it, and lately most of those things involve AI in some way. Most of what ends up here starts as a "wait, could I actually build that?" thought late at night, and I just go build it.
 

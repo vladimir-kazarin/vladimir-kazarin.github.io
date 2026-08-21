@@ -6,7 +6,77 @@
         margin-bottom: 6rem
 
 .about
-    img
+    .about-photo
+        position: relative
         width: 50%
         margin: 0 auto
-        display: block
+
+        img
+            width: 100%
+            display: block
+
+        .photo-note
+            position: absolute
+            top: 55%
+            left: 100%
+            width: 190px
+            margin-left: 10px
+            color: $delta
+            text-align: left
+
+            .note-arrow
+                display: block
+                margin-bottom: -6px
+
+            span
+                display: block
+                font-family: 'Caveat', cursive
+                font-size: 1.9rem
+                line-height: 1.2
+                transform: rotate(-2deg)
+
+            @media only screen and (max-width: 780px)
+                position: static
+                width: auto
+                margin: 1rem auto 0
+                text-align: center
+
+                .note-arrow
+                    display: none
+
+.home
+    .hero-wrap
+        position: relative
+        width: 55%
+        margin: 4rem auto 0
+
+        img.hero
+            width: 100%
+            display: block
+
+        .hero-code
+            position: absolute
+            left: 24.4%
+            top: 23.1%
+            width: 51.6%
+            height: 36.6%
+            margin: 0
+            padding: 0
+            border: none
+            background: transparent
+            box-sizing: border-box
+            overflow: hidden
+
+            code
+                display: block
+                width: 100%
+                height: 100%
+                margin: 0
+                padding: 0
+                background: transparent
+                font-family: $fontMonospace
+                font-size: 0.5rem
+                line-height: 1.4
+                color: #7ab8ff
+                white-space: pre-wrap
+                word-break: break-all

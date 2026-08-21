@@ -3,3 +3,49 @@ layout: page
 title: Home
 ---
 <p class="text-center">I'm Vladimir Kazarin, an AI engineer with many years developing software. I build software projects for fun, increasingly with AI — some finished, some abandoned, all worth trying. Have a look at <a href="{{ site.url }}/projects">what I've been making</a>.</p>
+
+<div class="hero-wrap">
+    <img class="hero" src="{{ site.url }}/assets/images/homepage-code.png" alt="Illustration of a laptop with code on the screen" />
+    <pre class="hero-code"><code id="hero-typer"></code></pre>
+</div>
+
+<script>
+(function () {
+    var el = document.getElementById('hero-typer');
+    if (!el) return;
+
+    var snippet = "def build():\n    if idea:\n        ship_it()\n\nmodel = load('gpt')\nwhile True:\n    y = model.run(x)\n    yield y";
+
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        el.textContent = snippet;
+        return;
+    }
+
+    var i = 0;
+    var typing = true;
+
+    function tick() {
+        if (typing) {
+            if (i <= snippet.length) {
+                el.textContent = snippet.slice(0, i) + '▋';
+                i++;
+                setTimeout(tick, 35);
+            } else {
+                typing = false;
+                setTimeout(tick, 1800);
+            }
+        } else {
+            if (i > 0) {
+                i -= 2;
+                el.textContent = snippet.slice(0, Math.max(i, 0)) + '▋';
+                setTimeout(tick, 15);
+            } else {
+                typing = true;
+                setTimeout(tick, 400);
+            }
+        }
+    }
+
+    tick();
+})();
+</script>
