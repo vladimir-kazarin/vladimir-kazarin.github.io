@@ -14,6 +14,10 @@
         width: 60%
         display: inline-block
 
+    > .toright.full > .name,
+    > .toright.full > .bio
+        width: 100%
+
     > .toright > .name
         font-size: 1.5rem
         font-family: $fontSans
@@ -65,6 +69,15 @@
 
         @media #{$tablet}
             width: 78%
+
+        &.full
+            width: 100%
+
+            @media #{$mobile}
+                width: 100%
+
+            @media #{$tablet}
+                width: 100%
 
 .no-disqus
     border-bottom: none

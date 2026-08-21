@@ -2,26 +2,15 @@
 title: About
 layout: page
 ---
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Hello! I'm Vladimir Kazarin and I'm a passionate Software Engineer with > 5 years of experience in server-side 
-application development and infrastructure. I'm a big fan of open source and Linux. </p>
+Hey, I'm Vladimir. 👋
 
-<p>I'm currently located in Boston area, doing infrastructure work at Adobe Sign. 
-Here I'll be sharing my thoughts on tech and interesting problems I've encountered along the way.</p>
+![Vladimir](/assets/images/vladimir-scooter.jpg)
 
-<h2>Skills</h2>
+I'm a software engineer who likes building small things for the fun of it, and lately most of those things involve AI in some way. Most of what ends up here starts as a "wait, could I actually build that?" thought late at night, and I just go build it.
 
-<ul class="skill-list">
-	<li>Java, Python</li>
-	<li>Kubernetes, docker, Helm</li>
-    <li>AWS, Azure</li>
-    <li>CI/CD</li>
-	<li>Jenkins</li>
-	<li>Redis</li>
-	<li>Javascript, ReactJS</li>
-    <li>TDD, Load Testing</li>
-	<li>Git</li>
-    <li>SSH, Tunneling, Port Forwarding</li>
-	<li>PHP</li>
-</ul>
+Some of these projects turn into something real. Most don't, and that's fine — the point was building them, not shipping a startup. This site is where I keep track of that.
+
+If you want the professional version of me, that's what [LinkedIn](https://www.linkedin.com/in/vkazarin) is for. Everything else — the code, the experiments, the half-finished ideas — lives on [GitHub](https://github.com/vladimir-kazarin).
+
+Take a look at the [projects](/projects) page for the full list.
