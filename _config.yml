@@ -1,21 +1,24 @@
 # main text of home
 name: Vladimir Kazarin
-bio: Software Engineer @ Adobe
+bio: Software engineer building tiny things for fun, increasingly with AI
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A collection of small software projects, built for fun — with a growing focus on AI.
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
 picture: assets/images/adobeheadshots-69.jpg
 
+# set to false to hide the profile photo in the header and post bylines
+show-photo: false
+
 # your site color theme, false to light theme
 dark-theme: false
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: https://docs.google.com/document/d/11vPdvaXyzIzbpEbSD1whu0AKL7khX944En6O5KCcAmg/edit?usp=sharing
 
@@ -43,7 +46,7 @@ github: vladimir-kazarin
 authors:
   vladimirkazarin:
     name: Vladimir Kazarin
-    bio: A man who travels the world, likes fancy clothes and writes code
+    bio: A man who travels the world, likes fancy clothes, and writes code — these days mostly with AI
     external-image: false
     picture: assets/images/adobeheadshots-69.jpg
     twitter:
