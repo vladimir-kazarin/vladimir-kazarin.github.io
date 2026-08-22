@@ -9,6 +9,7 @@ category: project
 projects: true
 author: vladimirkazarin
 externalLink: https://13virtues.org
+github: https://github.com/vladimir-kazarin/franklin
 description: An app to track your daily virtues like Ben Franklin, with LLM reflections written in his voice
 ---
 
