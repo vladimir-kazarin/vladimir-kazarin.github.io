@@ -1,0 +1,16 @@
+---
+title: "13 Virtues"
+layout: post
+date: 2026-08-21 12:00
+headerImage: false
+tag:
+category: project
+projects: true
+author: vladimirkazarin
+externalLink: https://13virtues.org
+description: A site built around Benjamin Franklin's 13 virtues
+---
+
+A small site built around Benjamin Franklin's 13 virtues.
+
+Source code is on [GitHub](https://github.com/vladimir-kazarin/franklin).
