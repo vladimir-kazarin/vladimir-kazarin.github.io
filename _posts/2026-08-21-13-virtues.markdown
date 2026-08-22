@@ -9,11 +9,13 @@ category: project
 projects: true
 author: vladimirkazarin
 externalLink: https://13virtues.org
-description: A site built around Benjamin Franklin's 13 virtues
+description: An app to track your daily virtues like Ben Franklin, with LLM reflections written in his voice
 ---
 
-A small site built around Benjamin Franklin's 13 virtues.
+An app to track your daily virtues like Ben Franklin did, complete with an LLM-written weekly reflection in his voice.
 
 ![13 Virtues weekly tracker](/assets/images/13virtues-screenshot.png)
+
+![13 Virtues weekly reflection](/assets/images/13virtues-reflection.png)
 
 Source code is on [GitHub](https://github.com/vladimir-kazarin/franklin).
