@@ -2,6 +2,7 @@
 title: "13 Virtues"
 layout: post
 date: 2026-08-21 12:00
+image: /assets/images/13virtues-screenshot.png
 headerImage: false
 tag:
 category: project
@@ -12,5 +13,7 @@ description: A site built around Benjamin Franklin's 13 virtues
 ---
 
 A small site built around Benjamin Franklin's 13 virtues.
+
+![13 Virtues weekly tracker](/assets/images/13virtues-screenshot.png)
 
 Source code is on [GitHub](https://github.com/vladimir-kazarin/franklin).
