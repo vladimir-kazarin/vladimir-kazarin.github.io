@@ -1,0 +1,22 @@
+---
+title: "13 Virtues"
+layout: post
+date: 2026-08-21 12:00
+image: /assets/images/13virtues-screenshot.png
+headerImage: false
+tag:
+category: project
+projects: true
+author: vladimirkazarin
+externalLink: https://13virtues.org
+github: https://github.com/vladimir-kazarin/franklin
+description: An app to track your daily virtues like Ben Franklin, with LLM reflections written in his voice
+---
+
+An app to track your daily virtues like Ben Franklin did, complete with an LLM-written weekly reflection in his voice.
+
+![13 Virtues weekly tracker](/assets/images/13virtues-screenshot.png)
+
+![13 Virtues weekly reflection](/assets/images/13virtues-reflection.png)
+
+Source code is on [GitHub](https://github.com/vladimir-kazarin/franklin).
