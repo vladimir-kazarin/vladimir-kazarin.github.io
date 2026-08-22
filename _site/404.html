@@ -50,6 +50,10 @@
     <link rel="canonical" href="https://vladcodes.com/404.html">
     <link rel="alternate" type="application/rss+xml" title="" href="https://vladcodes.com/feed.xml" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/d9b09040a7.js" crossorigin="anonymous"></script>
 
     <style>
@@ -307,7 +311,18 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 .page { margin-top: 125px; }
 .page > h1 { text-align: center; margin-bottom: 6rem; }
 
-.about img { width: 50%; margin: 0 auto; display: block; }
+.about .about-photo { position: relative; width: 50%; margin: 0 auto; }
+.about .about-photo img { width: 100%; display: block; }
+.about .about-photo .photo-note { position: absolute; top: 55%; left: 100%; width: 190px; margin-left: 10px; color: #4b0082; text-align: left; }
+.about .about-photo .photo-note .note-arrow { display: block; margin-bottom: -6px; }
+.about .about-photo .photo-note span { display: block; font-family: "Caveat", cursive; font-size: 1.9rem; line-height: 1.2; transform: rotate(-2deg); }
+@media only screen and (max-width: 780px) { .about .about-photo .photo-note { position: static; width: auto; margin: 1rem auto 0; text-align: center; }
+  .about .about-photo .photo-note .note-arrow { display: none; } }
+
+.home .hero-wrap { position: relative; width: 55%; margin: 4rem auto 0; }
+.home .hero-wrap img.hero { width: 100%; display: block; }
+.home .hero-wrap .hero-code { position: absolute; left: 24.4%; top: 23.1%; width: 51.6%; height: 36.6%; margin: 0; padding: 0; border: none; background: transparent; box-sizing: border-box; overflow: hidden; }
+.home .hero-wrap .hero-code code { display: block; width: 100%; height: 100%; margin: 0; padding: 0; background: transparent; font-family: "Consolas", Liberation Mono, Menlo, Courier, monospace; font-size: 0.5rem; line-height: 1.4; color: #7ab8ff; white-space: pre-wrap; word-break: break-all; }
 
 .post { margin-top: 125px; }
 .post > .title { text-align: center; margin-bottom: 3rem; }
