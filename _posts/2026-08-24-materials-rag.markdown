@@ -8,6 +8,7 @@ tag:
 category: project
 projects: true
 author: vladimirkazarin
+externalLink: https://materials-rag-demo-vk.fly.dev/
 description: A RAG search tool that finds and justifies candidate materials for engineering problems
 ---
 
