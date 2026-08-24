@@ -9,9 +9,12 @@ category: project
 projects: true
 author: vladimirkazarin
 externalLink: https://materials-rag-demo-vk.fly.dev/
+github: https://github.com/vladimir-kazarin/materials-rag
 description: A RAG search tool that finds and justifies candidate materials for engineering problems
 ---
 
 A search tool that helps find candidate materials for engineering problems — describe what you need (*"a stable, non-metallic compound with high bulk modulus for a hard dielectric coating"*) and it searches real computed-materials data and real research papers to recommend and justify candidates.
 
 ![Materials RAG](/assets/images/materials-rag-screenshot.png)
+
+Source code is on [GitHub](https://github.com/vladimir-kazarin/materials-rag).
