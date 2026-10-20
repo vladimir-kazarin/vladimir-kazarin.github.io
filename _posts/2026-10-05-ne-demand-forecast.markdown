@@ -8,7 +8,7 @@ tag:
 category: project
 projects: true
 author: vladimirkazarin
-externalLink: https://ne-demand-forecast-njvzyctwntwcxquaahetkb.streamlit.app/
+externalLink: https://ne-demand-forecast.streamlit.app/
 github: https://github.com/vladimir-kazarin/ne-demand-forecast
 description: An unattended MLOps pipeline that forecasts next-day hourly electricity demand for New England
 ---
